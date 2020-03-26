@@ -1,0 +1,33 @@
+<img src="https://i.imgur.com/sX12DTc.png">
+
+# Project 1 Assessment
+
+## Introduction (By Instructor)
+
+This **Introduction** section will be read in class by the instructor.
+
+Students will be self-directed beginning with the **Instructions & Time Guidelines** section below.
+
+### GOAL
+
+The goal of this project assessment is to gauge your ability to develop a **minimal** front-end web application using HTML, CSS & JavaScript, including your ability to:
+
+- Write HTML that provides the application's overall structure and content. 
+- Use CSS to provide styling.
+- Use JavaScript to:
+	- Define variables that hold application state, cache DOM elements, etc.
+	- Select elements in the DOM.
+	- Listen for browser events, such as `click`, being dispatched by DOM elements.
+	- Manipulate a DOM element's content and style. 
+
+### DEMO
+
+The instructor will now demonstrate the app you will be building.
+
+### OVERALL APPLICATION REQUIREMENTS
+
+As you saw, the application's UI consists of:
+
+- A count display
+- Two buttons ("+" & "-")
+- An `<input>` element
