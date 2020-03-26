@@ -159,25 +159,25 @@ function animation () {
 function lightUp(compPat) {
   if (compPat == 'green') {
     greenButton.style.backgroundColor = "aliceblue";
-    // playSOunds
+    clip3.play();
     setTimeout(() => {
       greenButton.style.backgroundColor = "#52c411"
     }, 100)
   } else if (compPat == 'red') {
     redButton.style.backgroundColor = "aliceblue"
-    // playSOunds
+    clip1.play();
     setTimeout(() => {
       redButton.style.backgroundColor = "#ff0077"
     }, 100)
   } else if (compPat == 'yellow') {
       yellowButton.style.backgroundColor = "aliceblue";
-    // playSOunds
+    clip4.play();
     setTimeout(() => {
       yellowButton.style.backgroundColor = "#f8ec08"
     }, 100)
   } else if (compPat == 'blue') {
       blueButton.style.backgroundColor = "aliceblue";
-    // playSOunds
+    clip2.play();
     setTimeout(() => {
       blueButton.style.backgroundColor = "#1a0be2"
     }, 100)
