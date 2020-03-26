@@ -5,20 +5,24 @@ let gameObject = {
   gameOver : false,
   gameStart: true,
   color : "",
-  sounds : ["redSound", "blueSound", "yellowSound", "greenSound"],
+  sounds : ["https://freesound.org/people/mad-monkey/sounds/66681/"],
   squares : ["red", "blue", "yellow", "green"], //<---------- this is just a list
 
 }
 
 
 //--------apps state variables------------
+const clip1 = new Audio('https://www.pacdv.com/sounds/interface_sound_effects/sound62.wav');
+const clip2 = new Audio('https://www.pacdv.com/sounds/interface_sound_effects/beep-3.wav');
+const clip3 = new Audio('https://www.pacdv.com/sounds/interface_sound_effects/sound39.mp3')
+const clip4 = new Audio('https://www.pacdv.com/sounds/interface_sound_effects/sound12.mp3')
 
-
-
-//in game object, method that will push one pattern into array at the time
+// function playIt() {
+//   clip1.play();
+// };
 
 //---------cached element references----------
-const player = new Audio()
+
 // put lines 28 - 31 into an array, replace line 9
 const redButton = document.getElementById("red");
 const blueButton = document.getElementById("blue");
@@ -39,8 +43,8 @@ startButton.addEventListener('click', startGame)
 circleDiv.addEventListener('click', handleChoice)
 
 redButton.onclick = () => {
-    redButton.style.backgroundColor = "aliceblue"
-    // playSOunds
+    redButton.style.backgroundColor = "aliceblue";
+    clip1.play();
   setTimeout(() => {
     redButton.style.backgroundColor = "#ff0077"
   }, 100)
@@ -48,7 +52,7 @@ redButton.onclick = () => {
 
 blueButton.onclick = () => {
     blueButton.style.backgroundColor = "aliceblue";
-    // playSOunds
+    clip2.play();
   setTimeout(() => {
     blueButton.style.backgroundColor = "#1a0be2"
   }, 100)
@@ -56,7 +60,7 @@ blueButton.onclick = () => {
 
 greenButton.onclick = () => {
     greenButton.style.backgroundColor = "aliceblue";
-    // playSOunds
+    clip3.play();
   setTimeout(() => {
     greenButton.style.backgroundColor = "#52c411"
   }, 100)
@@ -64,7 +68,7 @@ greenButton.onclick = () => {
 
 yellowButton.onclick = () => {
     yellowButton.style.backgroundColor = "aliceblue";
-    // playSOunds
+    clip4.play();
   setTimeout(() => {
     yellowButton.style.backgroundColor = "#f8ec08"
   }, 100)
