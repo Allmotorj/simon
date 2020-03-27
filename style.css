@@ -24,18 +24,22 @@ h1 {
 #red {
 	background-color: #ff0077;
 	border-top-left-radius: 100%;
+	transition: 100ms linear;
 }
 #blue {
 	background-color: #1a0be2;
 	border-top-right-radius: 100%;
+	transition: 100ms linear;
 }
 #yellow {
 	background-color: #f8ec08;
 	border-bottom-left-radius: 100%;
+	transition: 100ms linear;
 }
 #green {
 	background-color: #52c411;
 	border-bottom-right-radius: 100%;
+	transition: 100ms linear;
 }
 #level-id {
 	display: inline-block;
