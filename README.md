@@ -1,8 +1,6 @@
-<<<<<<< HEAD
 
-=======
 ![](https://i.imgur.com/85Cotx4.png | width=100) <span> ![](https://i.imgur.com/c3rns4P.png | width=100)</span>
->>>>>>> ca7797e6ade3a11fbfec9440febf2df06cefb225
+
 
 # Project 1 Simon Says
 
