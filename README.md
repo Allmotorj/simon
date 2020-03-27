@@ -1,4 +1,4 @@
-<img src=https://i.imgur.com/85Cotx4.png"> <span><img src=https://i.imgur.com/c3rns4P.png></scan>
+<img src=https://i.imgur.com/85Cotx4.png> <span><img src=https://i.imgur.com/c3rns4P.png></scan>
 
 # Project 1 Simon Says
 
