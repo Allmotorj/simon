@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 
-=======
-![](https://i.imgur.com/85Cotx4.png | width=100) <span> ![](https://i.imgur.com/c3rns4P.png | width=100)</span>
->>>>>>> ca7797e6ade3a11fbfec9440febf2df06cefb225
 
 # Project 1 Simon Says
 
@@ -12,4 +8,6 @@
 
 **Simon Says** is my simple version of the game accessable here: https://allmotorj.github.io/simon/
 
+
+![](https://i.imgur.com/85Cotx4.png | width=100) <span> ![](https://i.imgur.com/c3rns4P.png | width=100)</span>
 
