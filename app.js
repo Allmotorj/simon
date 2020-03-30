@@ -48,7 +48,7 @@ function init(){
 function render(){
       levelText.textContent = "Points: "+ gameObject.simonPat.length;
       setTimeout(() => {
-        simonSays.textContent = "Simon Says";
+        simonSays.textContent = "Mamies Says";
       }, 1000);
   if (gameObject.gameOver === false) {
       startButton.style.visibility ="hidden";
@@ -83,7 +83,7 @@ function generatePattern (){
 function checkMoves() {
   for (let index = 0; index < gameObject.playerPat.length; index++) {
     if  (gameObject.playerPat[index] !== gameObject.simonPat[index]){
-        simonSays.textContent = "OMG You Lost";
+        simonSays.textContent = "Why u Lose?";
         init()
     }
   }
